@@ -110,7 +110,7 @@ public class DriverFactory {
 			
 			 default:
 				 System.out.println("Wrong envrionmnet is passed..... No need to run the test cases");
-				 throw new FrameworkException("WRONG ENV NAME IS PASSED");
+				 throw new FrameworkException("WRONG ENV NAME IS PASSED...FRAMEWORK EXCEPTION");
 				 //break;
 			
 			
