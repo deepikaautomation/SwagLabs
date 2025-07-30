@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="SwagLabs App Test Regression Suite" thread-count="3"
+	parallel="tests" verbose="4">
+	
+  <listeners>
+		<listener
+			class-name="com.qa.swag.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.swag.listeners.TestAllureListener" />
+		<listener 
+		     class-name="com.qa.swag.listeners.AnnotationTransformer"/>
+		
+	</listeners>
+
+
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.qa.swag.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Inventory Page Test">
+		<classes>
+			<class name="com.qa.swag.tests.InventoryPageTest" />
+		</classes>
+	</test>
+	
+	
+	
+	
+
+	
+
+
+
+	
+	
+	
+	
+
+
+</suite>

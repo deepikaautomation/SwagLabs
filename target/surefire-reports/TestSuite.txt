@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 14, Time elapsed: 3.399 s <<< FAILURE! - in TestSuite
+setUp(com.qa.swag.tests.InventoryPageTest)  Time elapsed: 2.47 s  <<< FAILURE!
+com.qa.swag.exception.FrameworkException: WRONG ENV NAME IS PASSED
+
+setUp(com.qa.swag.tests.LoginPageTest)  Time elapsed: 2.47 s  <<< FAILURE!
+com.qa.swag.exception.FrameworkException: WRONG ENV NAME IS PASSED
+

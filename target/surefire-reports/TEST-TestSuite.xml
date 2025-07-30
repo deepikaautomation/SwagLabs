@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.399" tests="16" errors="0" skipped="14" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="maven.conf" value="C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Denv=stageeeee"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\msivanan"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="user.name" value="msivanan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.12+7"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\msivanan\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\msivanan\Documents\Deepika_Automation_docs\SwagLabs"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\msivanan\Documents\Deepika_Automation_docs\SwagLabs"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env" value="stageeeee"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\ServiceNow\agent-client-collector\bin;C:\Program Files\ServiceNow\agent-client-collector\embedded\bin;C:\Users\msivanan\scoop\shims;C:\Users\msivanan\AppData\Local\Microsoft\WindowsApps;C:\Users\msivanan\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3.4\bin;;C:\Users\msivanan\AppData\Local\Microsoft\WindowsApps;C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="classworlds.conf" value="C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\msivanan\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.qa.swag.tests.InventoryPageTest" time="2.47">
+    <failure message="WRONG ENV NAME IS PASSED" type="com.qa.swag.exception.FrameworkException">com.qa.swag.exception.FrameworkException: WRONG ENV NAME IS PASSED
+</failure>
+    <system-out><![CDATA[...
+... TestNG 7.0.0 by CÃ©dric Beust (cedric@beust.com)
+...
+
+I am in onStart method Login Page Test
+Test Suite started!
+I am in onStart method Inventory Page Test
+Test Suite started!
+Running testcases on Env stageeeee
+Running testcases on Env stageeeee
+Wrong envrionmnet is passed..... No need to run the test cases
+Wrong envrionmnet is passed..... No need to run the test cases
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.qa.swag.tests.LoginPageTest" time="2.47">
+    <failure message="WRONG ENV NAME IS PASSED" type="com.qa.swag.exception.FrameworkException">com.qa.swag.exception.FrameworkException: WRONG ENV NAME IS PASSED
+</failure>
+  </testcase>
+  <testcase name="pageSetUp" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="LogoExistTest" classname="com.qa.swag.tests.LoginPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestStart method LogoExistTest start
+I am in onTestStart method getCheckifCartUpdated start
+LogoExistTest started!
+getCheckifCartUpdated started!
+]]></system-out>
+  </testcase>
+  <testcase name="getCheckifCartUpdated" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+  </testcase>
+  <testcase name="doLoginTest" classname="com.qa.swag.tests.LoginPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getCheckifCartUpdated skipped
+getCheckifCartUpdated skipped!
+I am in onTestSkipped method LogoExistTest skipped
+LogoExistTest skipped!
+I am in onTestStart method doLoginTest start
+doLoginTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="pageTitleTest" classname="com.qa.swag.tests.LoginPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method doLoginTest skipped
+doLoginTest skipped!
+I am in onTestStart method pageTitleTest start
+pageTitleTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getItemCheckinCartTest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestStart method getItemCheckinCartTest start
+getItemCheckinCartTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.swag.tests.LoginPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestSkipped method pageTitleTest skipped
+pageTitleTest skipped!
+I am in onTestSkipped method getItemCheckinCartTest skipped
+getItemCheckinCartTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="getItemSortTest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestStart method getItemSortTest start
+getItemSortTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getItemTest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getItemSortTest skipped
+getItemSortTest skipped!
+I am in onTestStart method getItemTest start
+getItemTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getLogoTitletest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getItemTest skipped
+getItemTest skipped!
+I am in onTestStart method getLogoTitletest start
+getLogoTitletest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getPageTitleTest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getLogoTitletest skipped
+getLogoTitletest skipped!
+I am in onTestStart method getPageTitleTest start
+getPageTitleTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getPartialUrlTest" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getPageTitleTest skipped
+getPageTitleTest skipped!
+I am in onTestStart method getPartialUrlTest start
+getPartialUrlTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="getToCartShoppingPage" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped message="WRONG ENV NAME IS PASSED"/>
+    <system-out><![CDATA[I am in onTestSkipped method getPartialUrlTest skipped
+getPartialUrlTest skipped!
+I am in onTestStart method getToCartShoppingPage start
+getToCartShoppingPage started!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.swag.tests.InventoryPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestSkipped method getToCartShoppingPage skipped
+getToCartShoppingPage skipped!
+]]></system-out>
+  </testcase>
+</testsuite>

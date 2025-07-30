@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [SwagLabs App Test Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.swag.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.swag.listeners.TestAllureListener"/>
+    <listener class-name="com.qa.swag.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Inventory Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.swag.tests.InventoryPageTest">
+        <methods>
+          <include name="pageSetUp"/>
+          <include name="getCheckifCartUpdated"/>
+          <include name="getLogoTitletest"/>
+          <include name="tearDown"/>
+          <include name="getItemCheckinCartTest"/>
+          <include name="getItemTest"/>
+          <include name="getPartialUrlTest"/>
+          <include name="getPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="getItemSortTest"/>
+          <include name="getToCartShoppingPage"/>
+        </methods>
+      </class> <!-- com.qa.swag.tests.InventoryPageTest -->
+    </classes>
+  </test> <!-- Inventory Page Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Login Page Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.swag.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="pageTitleTest"/>
+          <include name="setUp"/>
+          <include name="LogoExistTest"/>
+          <include name="doLoginTest"/>
+        </methods>
+      </class> <!-- com.qa.swag.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [SwagLabs App Test Regression Suite] -->

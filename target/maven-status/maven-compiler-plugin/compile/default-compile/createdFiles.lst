@@ -1,0 +1,13 @@
+com\qa\swaglabs\pages\LoginPage.class
+com\qa\swag\listeners\AnnotationTransformer.class
+com\qa\swaglabs\pages\CheckOutStepOne.class
+com\qa\swag\constants\AppConstants.class
+com\qa\swag\listeners\TestAllureListener.class
+com\qa\swaglabs\pages\InventoryPage.class
+com\qa\swag\Factory\DriverFactory.class
+com\qa\swaglabs\pages\CheckoutComplete.class
+com\qa\swag\listeners\Retry.class
+com\qa\swaglabs\pages\CartPage.class
+com\qa\swag\exception\FrameworkException.class
+com\qa\swag\listeners\ExtentReportListener.class
+com\qa\swaglabs\pages\CheckOutStepTwo.class

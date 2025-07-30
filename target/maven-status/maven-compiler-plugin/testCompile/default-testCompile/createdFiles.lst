@@ -1,0 +1,7 @@
+com\qa\swag\tests\LoginPageTest.class
+com\qa\swag\tests\InventoryPageTest.class
+com\qa\swag\tests\CheckoutStep2Test.class
+com\qa\swag\tests\CheckoutStep1Test.class
+com\qa\swag\tests\CheckoutCompleteTest.class
+com\qa\swag\tests\CartPageTest.class
+com\qa\swag\base\BaseTest.class
